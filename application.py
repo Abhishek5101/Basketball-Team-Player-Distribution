@@ -122,3 +122,5 @@ if __name__ == "__main__":
 # print(my_bandits)
 # my_warriors = newex[6:9] + unex[6:9]
 # print(my_warriors)
+
+print("Did it commit?")
