@@ -4,12 +4,10 @@ import sys
 
 def main(team):
 	print("""BASKETBALL TEAM STATS TOOL
-
 	---- MENU----
 	Here are your choices:
 	1) Display Team Stats
 	2) Quit
-
 	""")
 
 	response = int(input("Enter an option >  "))
@@ -39,15 +37,11 @@ unexperienced_dict = []
 
 
 for i in PLAYERS:
-	names.append(i['name'])
-
-for i in PLAYERS:
 	if i['experience'] == "YES":
 		experienced_dict.append(i)
-
-for i in PLAYERS:
-	if i['experience'] == "NO":
+	elif i['experience'] == "NO":
 		unexperienced_dict.append(i)
+	names.append(i['name'])
 
 
 experienced_players = []
