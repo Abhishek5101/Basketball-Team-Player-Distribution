@@ -3,43 +3,39 @@ import sys
 
 
 def main(team):
-	print("""BASKETBALL TEAM STATS TOOL
-	---- MENU----
-	Here are your choices:
-	1) Display Team Stats
-	2) Quit
-	""")
-	try:
-		response = int(input("Enter an option >  "))
-	except ValueError:
-		print("Please input only valid responses\n")
-		response = int(input("Enter an option >  "))
-	if response == 1:
+	while True:
 		try:
-			team = int(input("""
-	1) Panthers
-	2) Bandits
-	3) Warriors
-						"""))
+			print("""BASKETBALL TEAM STATS TOOL
+			---- MENU----
+			Here are your choices:
+			1) Display Team Stats
+			2) Quit
+			""")
+			response = int(input("Enter an option >  "))
+			if response == 1:
+				team = int(input("""
+			1) Panthers
+			2) Bandits
+			3) Warriors
+								"""))
+				if team == 1:
+					print_players(my_panthers)
+
+				elif team == 2:
+					print_players(my_bandits)
+
+				elif team == 3:
+					print_players(my_warriors)
+
+				else:
+					raise ValueError
+
+			elif response == 2:
+				sys.exit()
 		except ValueError:
-			print("Please input only valid responses\n")
-			team = int(input("""
-				1) Panthers
-				2) Bandits
-				3) Warriors
-									"""))
-		if team == 1:
-			print_players(my_panthers)
-
-		elif team == 2:
-			print_players(my_bandits)
-
-		elif team == 3:
-			print_players(my_warriors)
-
-	elif response == 2:
-		sys.exit()
-	return team
+			print("")
+			continue
+		return team
 
 
 names = []
