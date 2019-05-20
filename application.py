@@ -9,14 +9,25 @@ def main(team):
 	1) Display Team Stats
 	2) Quit
 	""")
-
-	response = int(input("Enter an option >  "))
+	try:
+		response = int(input("Enter an option >  "))
+	except ValueError:
+		print("Please input only valid responses\n")
+		response = int(input("Enter an option >  "))
 	if response == 1:
-		team = int(input("""
-1) Panthers
-2) Bandits
-3) Warriors
-					"""))
+		try:
+			team = int(input("""
+	1) Panthers
+	2) Bandits
+	3) Warriors
+						"""))
+		except ValueError:
+			print("Please input only valid responses\n")
+			team = int(input("""
+				1) Panthers
+				2) Bandits
+				3) Warriors
+									"""))
 		if team == 1:
 			print_players(my_panthers)
 
