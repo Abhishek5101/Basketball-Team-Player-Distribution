@@ -70,7 +70,6 @@ my_warriors = experienced_players[6:9] + unexperienced_players[6:9]
 
 def print_players(team):
 	print("""
-	Team: {}
 	--------------------
 	Total players: 6""")
 
