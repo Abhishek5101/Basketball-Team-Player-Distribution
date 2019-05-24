@@ -1,4 +1,4 @@
-from constants import PLAYERS
+from constants import *
 import sys
 
 
@@ -19,16 +19,16 @@ def main(team):
 			3) Warriors
 								"""))
 				if team == 1:
-					print_players(my_panthers)
+					print_players(my_panthers, TEAMS[0])
 
 				elif team == 2:
-					print_players(my_bandits)
+					print_players(my_bandits, TEAMS[1])
 
 				elif team == 3:
-					print_players(my_warriors)
+					print_players(my_warriors, TEAMS[2])
 
 				else:
-					raise ValueError
+					raise ValueError()
 
 			elif response == 2:
 				sys.exit()
@@ -68,10 +68,10 @@ my_bandits = experienced_players[3:6] + unexperienced_players[3:6]
 my_warriors = experienced_players[6:9] + unexperienced_players[6:9]
 
 
-def print_players(team):
-	print("""
+def print_players(team, string):
+	print(""" Team {}
 	--------------------
-	Total players: 6""")
+	Total players: 6""".format(string))
 
 	print("Players on Team:\n")
 	for player in team:
@@ -80,4 +80,5 @@ def print_players(team):
 
 if __name__ == '__main__':
 	main(team=None)
+
 
