@@ -69,13 +69,12 @@ my_warriors = experienced_players[6:9] + unexperienced_players[6:9]
 
 
 def print_players(team, string):
-	print(""" Team {}
+	print("""   Team {}
 	--------------------
 	Total players: 6""".format(string))
 
 	print("Players on Team:\n")
-	for player in team:
-		print(player, end=", ")
+	print(",".join(team))
 
 
 if __name__ == '__main__':
