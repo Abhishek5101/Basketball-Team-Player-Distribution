@@ -1,5 +1,6 @@
 from constants import *
 import sys
+from copy import deepcopy
 
 
 def main():
@@ -40,34 +41,32 @@ def main():
 		return team
 
 
-names = []
-experienced_dict = []
-inexperienced_dict = []
+data_to_work_with = deepcopy(PLAYERS)
 
 
-for i in PLAYERS:
-	if i['experience'] == "YES":
-		experienced_dict.append(i)
-	elif i['experience'] == "NO":
-		inexperienced_dict.append(i)
-	names.append(i['name'])
+def sort_players():
+	names = []
+	experienced_dict = []
+	inexperienced_dict = []
+	for i in data_to_work_with:
+		if i['experience'] == "YES":
+			i['experience'] = True
+			experienced_dict.append(i['name'])
+		elif i['experience'] == "NO":
+			i['experience'] = False
+			inexperienced_dict.append(i['name'])
+		i['height'] = i['height'].split()
+		i['height'] = int(i['height'][0])
+		names.append(i['name'])
+
+	return experienced_dict, inexperienced_dict
 
 
-experienced_players = []
-inexperienced_players = []
+experienced_dict, inexperienced_dict = sort_players()
 
-
-for i in experienced_dict:
-	experienced_players.append(i['name'])
-
-
-for i in inexperienced_dict:
-	inexperienced_players.append(i['name'])
-
-
-my_panthers = experienced_players[:3] + inexperienced_players[:3]
-my_bandits = experienced_players[3:6] + inexperienced_players[3:6]
-my_warriors = experienced_players[6:9] + inexperienced_players[6:9]
+my_panthers = experienced_dict[:3] + inexperienced_dict[:3]
+my_bandits = experienced_dict[3:6] + inexperienced_dict[3:6]
+my_warriors = experienced_dict[6:9] + inexperienced_dict[6:9]
 
 
 def print_players(team, string):
@@ -81,5 +80,3 @@ def print_players(team, string):
 
 if __name__ == '__main__':
 	main()
-
-
