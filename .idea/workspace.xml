@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a695d906-52a3-4cb2-a99d-e857a044bc92" name="Default Changelist" comment="add a new message">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a695d906-52a3-4cb2-a99d-e857a044bc92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,65 +44,54 @@
     <session id="-1418889971">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="659" />
-          <entry key="txt" value="124" />
+          <entry key="dummy" value="2" />
+          <entry key="py" value="1951" />
+          <entry key="txt" value="546" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="124" />
-          <entry key="Python" value="659" />
+          <entry key="PLAIN_TEXT" value="548" />
+          <entry key="Python" value="1951" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="2" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="2" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Basketball-Team-Player-Distribution" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2079">
-              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="1458">
+              <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1558882324227" expanded="true" signature="1431:1432" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Assignments Spring 2019/CSCI 230/change maker/abakulka_change_maker_BB1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Project 1-Guess the Number/Guess_the_Number_version5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -112,21 +99,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/constants.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="180">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/constants.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/application.py" />
       </list>
     </option>
@@ -141,6 +138,18 @@
       <profile-state>
         <expanded-state>
           <State />
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+          <State>
+            <id>ReST</id>
+          </State>
+          <State>
+            <id>YAML</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
@@ -272,19 +281,89 @@
       <option name="project" value="LOCAL" />
       <updated>1552533733416</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="need to handle exceptions and print out the team name">
+      <created>1558362431643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558362431643</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Handles exception for only the 1st time">
+      <created>1558367407590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558367407590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lousy solution to exceptional handling">
+      <created>1558371656001</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558371656001</updated>
+    </task>
+    <task id="LOCAL-00007" summary="final commit">
+      <created>1558409780444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558409780444</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Prints out team name">
+      <created>1558701933917</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558701933917</updated>
+    </task>
+    <task id="LOCAL-00009" summary="uses join function to list team members">
+      <created>1558702966270</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1558702966270</updated>
+    </task>
+    <task id="LOCAL-00010" summary="eliminates the need for try-except block">
+      <created>1558706476331</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1558706476331</updated>
+    </task>
+    <task id="LOCAL-00011" summary="uses  deepcopy of data instead of raw data">
+      <created>1558880210615</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1558880210615</updated>
+    </task>
+    <task id="LOCAL-00012" summary="encapsulated data in global scope into dunder main">
+      <created>1558881720388</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1558881720388</updated>
+    </task>
+    <task id="LOCAL-00013" summary="final commit with encapsulation">
+      <created>1558882575893</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1558882575893</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1719" height="932" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24985163" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49909255" visible="true" weight="0.24985163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5009074" side_tool="true" weight="0.24985163" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14634146" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25160462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3992298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -293,6 +372,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -305,37 +385,52 @@
     <MESSAGE value="add a new message" />
     <MESSAGE value="fix main function and make output console readable" />
     <MESSAGE value="Code refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Code refactor" />
+    <MESSAGE value="need to handle exceptions and print out the team name" />
+    <MESSAGE value="Handles exception for only the 1st time" />
+    <MESSAGE value="lousy solution to exceptional handling" />
+    <MESSAGE value="final commit" />
+    <MESSAGE value="Prints out team name" />
+    <MESSAGE value="uses join function to list team members" />
+    <MESSAGE value="eliminates the need for try-except block" />
+    <MESSAGE value="uses  deepcopy of data instead of raw data" />
+    <MESSAGE value="encapsulated data in global scope into dunder main" />
+    <MESSAGE value="final commit with encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit with encapsulation" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2079">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Assignments Spring 2019/CSCI 230/change maker/abakulka_change_maker_BB1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Project 1-Guess the Number/Guess_the_Number_version5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1558882324227" expanded="true" signature="1431:1432" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
