@@ -4,6 +4,9 @@ from copy import deepcopy
 
 
 def main():
+	data_to_work_with = deepcopy(PLAYERS)
+	experienced_dict, inexperienced_dict = sort_players(data_to_work_with)
+	my_panthers, my_bandits, my_warriors = create_team(experienced_dict, inexperienced_dict)
 	while True:
 		print("""BASKETBALL TEAM STATS TOOL
 		---- MENU----
@@ -41,10 +44,7 @@ def main():
 		return team
 
 
-data_to_work_with = deepcopy(PLAYERS)
-
-
-def sort_players():
+def sort_players(data_to_work_with):
 	names = []
 	experienced_dict = []
 	inexperienced_dict = []
@@ -62,17 +62,11 @@ def sort_players():
 	return experienced_dict, inexperienced_dict
 
 
-experienced_dict, inexperienced_dict = sort_players()
-
-
-def create_team():
+def create_team(experienced_dict, inexperienced_dict):
     my_panthers = experienced_dict[:3] + inexperienced_dict[:3]
     my_bandits = experienced_dict[3:6] + inexperienced_dict[3:6]
     my_warriors = experienced_dict[6:9] + inexperienced_dict[6:9]
     return my_panthers, my_bandits, my_warriors
-
-
-my_panthers, my_bandits, my_warriors = create_team()
 
 
 def print_players(team, string):
