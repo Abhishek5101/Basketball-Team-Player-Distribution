@@ -64,15 +64,21 @@ def sort_players():
 
 experienced_dict, inexperienced_dict = sort_players()
 
-my_panthers = experienced_dict[:3] + inexperienced_dict[:3]
-my_bandits = experienced_dict[3:6] + inexperienced_dict[3:6]
-my_warriors = experienced_dict[6:9] + inexperienced_dict[6:9]
+
+def create_team():
+    my_panthers = experienced_dict[:3] + inexperienced_dict[:3]
+    my_bandits = experienced_dict[3:6] + inexperienced_dict[3:6]
+    my_warriors = experienced_dict[6:9] + inexperienced_dict[6:9]
+    return my_panthers, my_bandits, my_warriors
+
+
+my_panthers, my_bandits, my_warriors = create_team()
 
 
 def print_players(team, string):
 	print("""   Team {}
 	--------------------
-	Total players: 6""".format(string))
+	Total players: {}""".format(string, len(team)))
 
 	print("Players on Team:\n")
 	print(", ".join(team))
